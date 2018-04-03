@@ -28,5 +28,5 @@ Complete la tabla:
 
 ## Entrega
 
-* Modo de entrega: [Fork](https://help.github.com/articles/fork-a-repo/) la plantilla en las cuentas de los integrantes (de las que se tomará una al azar). Plazo: 1/4/18 a las 24h.
+* Modo de entrega: [Fork](https://help.github.com/articles/fork-a-repo/) la plantilla en las cuentas de los integrantes (de las que se tomará una al azar). Plazo: 15/4/18 a las 24h.
 * Exposición oral en el taller de la siguiente semana.
