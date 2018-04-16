@@ -27,7 +27,7 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+| Yessica Chautá | ykchautai |
 
 ## Entrega
 
