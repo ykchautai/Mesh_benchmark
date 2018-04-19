@@ -28,8 +28,8 @@ int flockWidth = 1280;
 int flockHeight = 720;
 int flockDepth = 600;
 boolean avoidWalls = true;
-boolean immediate = true;
-boolean representation;
+boolean immediate = false;
+boolean representation = false;
 
 // visual modes
 // 0. Faces and edges
@@ -38,7 +38,7 @@ boolean representation;
 // 3. Only points
 int mode;
 
-int initBoidNum = 50; // amount of boids to start the program with
+int initBoidNum = 20; // amount of boids to start the program with
 ArrayList<Boid> flock;
 Node avatar;
 boolean animate = true;
@@ -69,7 +69,7 @@ void draw() {
   scene.traverse();
   pushStyle();
   scene.beginScreenCoordinates();
-  text((immediate?"Modo: Inmediato  ":"Modo: Retenido  ")+(representation?"  Vertex-Vertex  ":"  Face-Vertex  ")+("  FPS: "+frameRate), 150, 35);
+  text((immediate?"Modo: Inmediato  ":"Modo: Retenido  ")+(representation?"  Vertex-Vertex  ":"  Face-Vertex  ")+("  FPS: "+frameRate) + ("  FrameCount: "+frameCount), 150, 35);
   scene.endScreenCoordinates();
   popStyle();
 }
