@@ -28,7 +28,7 @@ int flockWidth = 1280;
 int flockHeight = 720;
 int flockDepth = 600;
 boolean avoidWalls = true;
-boolean immediate = false;
+boolean immediate = true;
 boolean representation = false;
 
 // visual modes
@@ -38,7 +38,7 @@ boolean representation = false;
 // 3. Only points
 int mode;
 
-int initBoidNum = 20; // amount of boids to start the program with
+int initBoidNum = 200; // amount of boids to start the program with
 ArrayList<Boid> flock;
 Node avatar;
 boolean animate = true;
